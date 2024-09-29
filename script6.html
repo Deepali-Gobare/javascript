@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      select {
+        width: 120px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- <script>
+      var a = 10;
+      var b = "happy";
+      let c = true;
+      let e;
+      var f = "t";
+      var g = 23.2;
+      let h = null;
+      document.write(a + " " + typeof a + "<br />");
+      document.write(b + " " + typeof b + "<br />");
+      document.write(c + " " + typeof c + "<br />");
+      document.write(e + " " + typeof e + "<br />");
+      document.write(f + " " + typeof f + "<br />");
+      document.write(g + " " + typeof g + "<br />");
+      document.write(h + " " + typeof h + "<br />");
+    </script> -->
+
+    <!-- primative datatypes -->
+    <!-- <script>
+      var a = new String();
+      var b = new Boolean();
+      var c = new Number();
+      let d = new Date();
+      const st = [];
+
+      document.write(`str a`, a, `<br>`);
+      document.write("bool b     ", b, "<br>");
+      document.write("number c     ", c, "<br>");
+      document.write("Date   ", d, "<br>");
+      document.write("st     ", st, "<br>");
+      var a = new String("deepali");
+      var b = new Boolean(true);
+      var c = new Number(12);
+      let f = new Date("1-aug-2002");
+      const s = [1, 2, 34, 5];
+
+      document.write(`str a`, a, `<br>`);
+      document.write("bool b     ", b, "<br>");
+      document.write("number c     ", c, "<br>");
+      document.write("Date   ", d, "<br>");
+      document.write("s    ", s, "<br>");
+    </script> -->
+    <!-- non primitive datatype -->
+
+    <!-- <script>
+      window.alert("Deepali");
+      alert("Addition of two nums " + (10 + 2));
+      alert("fuck off\nFuck off\nF**k off");
+      let a = confirm("get the fuck out from my face!!");
+      document.write(a);
+      let name = prompt("My name is?");
+      let roll = prompt("Whts my roll");
+      document.write("<br>My good name is ", name, " and roll is ", roll);
+    </script> -->
+    <!-- diaglos -->
+
+    <!-- <script>
+      let a = 100;
+      let c = 1;
+      let b = "100";
+      document.write("<h1>fuck off</h1>");
+      document.write(a == b, "<br>"); //true
+      document.write(b == a, "<br>"); //true
+      document.write(a === b, "<br>"); //false
+      document.write(a != b, "<br>"); //false
+      document.write(a !== b, "<br>"); //true
+      document.write(10 + true, "<br>");
+      document.write(a % 2 == 0 ? "Even" : "odd");
+    </script> -->
+    <!-- operators -->
+
+    <!-- <script>
+      let x = "20";
+      let y = "30";
+      res = x * y;
+      document.write(res, "<br>");
+      document.write(x / y, "<br>");
+      // document.write(--x, "<br>");
+      res = parseInt(x) + parseInt(y);
+      document.write(res, "<br>");
+      document.write(+x + +y, "<br>");
+      let str = "ram";
+      document.write(parseInt(str), "<br>");
+      document.write(+str + "<br>");
+      document.write(str * 10);
+    </script> -->
+    <!-- parsing -->
+
+    <!-- <h1>Addition</h1>
+    <label>1st val</label><br />
+    <input type="text" id="val1" placeholder="1st val" /><br />
+    <label>2nd val</label><br />
+    <input type="text" id="val2" placeholder="2nd val" /><br />
+    <button onclick="add()">+</button><br />
+    <output id="res"></output>
+    <script>
+      function add() {
+        let x, y, addition;
+        x = +val1.value;
+        y = +val2.value;
+        addition = x + y;
+        res.value = "Sum is " + addition;
+      }
+    </script> -->
+    <!-- addition by using the function -->
+
+    <!-- <label>1st val</label><br />
+    <input type="text" id="id1" /><br />
+
+    <label>2nd val</label><br />
+
+    <input type="text" id="id2" /><br />
+    <input type="text" id="res" /><br />
+    <button onclick="res.value=+id1.value+ +id2.value">+</button>
+    <button onclick="res.value=id1.value-id2.value">-</button>
+    <button onclick="res.value=id1.value/id2.value">/</button>
+    <button onclick="res.value=id1.value*id2.value">*</button> -->
+    <!-- calculator with inline function -->
+
+    <!-- <h1>Temp converter</h1>
+    <input
+      type="text"
+      id="celsis"
+      placeholder="celsis"
+      oninput="freignite.value=celsis.value*9/5+32"
+    />
+    <input
+      type="text"
+      id="freignite"
+      placeholder="freignite"
+      oninput="celsis.value=(freignite.value-32)*5/9"
+    /> -->
+
+    <!-- celci to freignite -->
+    <!-- 
+    <script>
+      let n = +prompt("take the value");
+      if (n > 5) {
+        n = n + 11;
+      } else if (n > 4) {
+        n = n + 3;
+      } else {
+        n = n;
+      }
+      document.write(n);
+    </script> -->
+
+    <!-- switch -->
+
+    <!-- <script>
+      var a = 10;
+      switch (a) {
+        case 10:
+          document.write("<h1>hello<h1>");
+          break;
+        default:
+          document.write("<h1>default called<h1>");
+      }
+      a = 2;
+      switch (a % 2 === 0) {
+        case 1:
+          document.write("<h1>even<h1>");
+          break;
+        case 0:
+          document.write("<h1>odd<h1>");
+          break;
+        default:
+          document.write("hufh");
+      }
+      a = 10;
+      let b = 11,
+        v = 1;
+      switch (b) {
+        case b:
+          document.write("<h1>11<h1>");
+          break;
+        case v:
+          document.write("<h1>1<h1>");
+          break;
+        default:
+          document.write("ygf");
+      }
+    </script> -->
+    <!-- <script>            
+      document.write("<br>");
+      for (let i = 1, j = 1, k = 1; i <= 9; i++, j++, k++)
+        document.write(i + " " + j + " " + k + "<br>");
+    </script> -->
+
+    <!-- printing the 5's table -->
+    <!-- <h1>I will get you any number table</h1>
+
+    <input type="text" id="id1" placeholder="number" /><br />
+    <button onclick="table()">Gernerate the Table</button>
+    <script>
+      function table() {
+        let val = id1.value;
+        for (let i = 1; i <= 10; i++) {
+          let x = val * i;
+          document.write(val + "x" + i + "=" + x + "<br>");
+        }
+      }
+    </script> -->
+
+    <!-- <h3>printing multiplication table</h3>
+
+	<input type="text" id="tn"> 
+	<button onclick="printTable()">Print Table</button>
+	<script>
+	  function printTable()
+	  {
+		let n, res;
+		n=tn.value;
+		
+		for(let i=1; i<=20; i++)
+		{
+		  res=n*i;
+		  document.write(n+"*"+i+"="+res+`<br>`);
+		}		
+	  }	
+	</script> -->
+
+    <!-- disply birthdate -->
+
+    <!-- <h1>Date of Birth:</h1>
+    <select>
+      <option>select day</option>
+      <script>
+        for (let d = 1; d <= 31; d++) {
+          document.write("<option>" + d + "</option>");
+        }
+      </script>
+    </select>
+
+    <select>
+      <option>select month</option>
+      <script>
+        for (let m = 1; m <= 12; m++) {
+          document.write("<option>" + m + "</option>");
+        }
+      </script>
+    </select>
+
+    <select id="year">
+      <option>select year</option>
+      <script>
+        for (let y = 2024; y >= 1900; y--)
+          document.write("<option>" + y + "</option>");
+      </script>
+    </select> -->
+
+    <script>
+      let n = "deepu";
+      document.write(n + "<br>");
+      document.write(`${n}<br>`);
+      document.write("sum of 10+20<br>");
+      document.write(`sum of ${10 + 23}<br>`);
+
+      document.write(`${alert("hello")}`);
+      let st = `hi ${n}`;
+      document.write(`${st}`);
+    </script>
+  </body>
+</html>
